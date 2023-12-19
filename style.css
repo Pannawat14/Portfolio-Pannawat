@@ -46,13 +46,14 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+  color: rgb(245, 179, 242)
 }
 .img-round {
   border-radius: 50%; 
 }
 
 a {
-  color: black;
+  color: rgb(245, 179, 242);
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -66,7 +67,9 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  color: rgb(245, 179, 242);
 }
+
 
 .logo:hover {
   cursor: default;
@@ -193,16 +196,19 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  color: black;
 }
 
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  color: rgb(0, 0, 0);
 }
 
 .title {
   font-size: 3rem;
   text-align: center;
+  color: rgb(245, 179, 242);
 }
 
 #socials-container {
@@ -332,7 +338,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: rgb(0, 0, 0);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -429,6 +435,7 @@ article .icon {
 
 .email-icon {
   height: 2.5rem;
+  
 }
 
 /* FOOTER SECTION */
@@ -440,4 +447,7 @@ footer {
 
 footer p {
   text-align: center;
+}
+.meow-sub {
+  color: black;
 }
