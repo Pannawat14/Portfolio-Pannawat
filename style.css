@@ -8,7 +8,10 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  background-color: rgb(168, 251, 248);
+  font-family: 'Itim', cursive;
+font-family: 'Mina', sans-serif;
+font-family: 'Sriracha', cursive;
 }
 
 html {
@@ -112,7 +115,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -215,6 +218,11 @@ section {
   cursor: pointer;
   height: 2rem;
 }
+.icon2 {
+  cursor: pointer;
+  height: 10em;
+  width: 20em;
+}
 
 /* BUTTONS */
 
@@ -245,7 +253,7 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .btn-color-1:hover {
