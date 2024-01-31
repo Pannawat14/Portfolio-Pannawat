@@ -5,13 +5,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Itim', cursive;
 }
 
 body {
-  background-color: rgb(168, 251, 248);
-  font-family: 'Itim', cursive;
-font-family: 'Mina', sans-serif;
-font-family: 'Sriracha', cursive;
+ min-height: 100vh;
+  background:linear-gradient(#2b1055,#7597de)
 }
 
 html {
@@ -46,14 +46,14 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
-  color: rgb(245, 179, 242)
+  color: rgb(255, 255, 255)
 }
 .img-round {
   border-radius: 50%; 
 }
 
 a {
-  color: rgb(245, 179, 242);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -67,7 +67,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
-  color: rgb(245, 179, 242);
+  color: rgb(255, 255, 255);
 }
 
 
@@ -208,7 +208,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-  color: rgb(245, 179, 242);
+  color: rgb(255, 255, 255);
 }
 
 #socials-container {
